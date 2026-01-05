@@ -61,6 +61,7 @@ useGlobalHotkeys(preventGlobalHotkeys);
     display: grid;
     width: 100%;
     flex-grow: 1;
+    min-height: 0;
     grid-template-columns: 180px auto 300px;
     grid-template-rows: 1fr;
 }

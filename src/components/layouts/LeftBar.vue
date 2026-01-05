@@ -89,6 +89,7 @@ function rememberChange(oldIndex: number | undefined, newIndex: number | undefin
     height: 100%;
     display: flex;
     flex-direction: column;
+    min-height: 0;
     border-right: 1px solid rgb(var(--border-main));
     padding-inline: 8px;
     padding-block: 4px;
